@@ -560,6 +560,10 @@ span {
     flex-wrap: wrap;
 }
 
+.contact form .input-box {
+    margin-bottom: 55px;
+}
+
 .contact form .input-box input,
 .contact form textarea {
     width: 100%;

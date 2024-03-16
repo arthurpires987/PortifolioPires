@@ -200,20 +200,16 @@
     <section class="contact" id="contact">
         <h2 class="heading">Entre em <span>Contato</span></h2>
 
-        <form action="document.php" method="post">
+        <form action="email.php" method="post">
             <div class="input-group">
                 <div class="input-box">
-                    <input type="text" name="nome" required placeholder="Nome completo">
+                    <input type="text" name="name" required placeholder="Nome completo">
                     <input type="email" name="email" required  placeholder="Email">
-                </div>
-                <div class="input-box">
-                    <input type="number" required name="telefone" placeholder="telefone">
-                    <input type="text" name="assunto" required placeholder="Assunto">
                 </div>
             </div>
 
             <div class="input-group-2">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+                <textarea class="field" name="message" cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
                 <input type="submit" class="btn" placeholder="Enviar">
             </div>
         </form>
