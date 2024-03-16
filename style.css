@@ -705,7 +705,7 @@ span {
 
 @media(max-width:895px) {
     html {
-        width: 100%;
+        width: 100vw;
     }
 
     #menu-icon {
