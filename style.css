@@ -710,10 +710,11 @@ span {
 
     .navbar {
         display: none;
-        position: absolute;
+        /* alterei */
+        position: fixed;
         top: 100%;
         right: 0;
-        width: 50%;
+        /* width: 50%; */
         padding: 1rem 3%;
         background: rgba(0, 0, 0, 0.8);
         backdrop-filter: blur(20px);
