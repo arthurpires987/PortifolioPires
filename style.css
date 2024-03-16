@@ -431,7 +431,7 @@ span {
 
 .service-box {
     background-color: var(--main-color);
-    height: 440px;
+    height: 490px;
     border-radius: 3rem;
     border: 5px solid transparent;
     cursor: pointer;
