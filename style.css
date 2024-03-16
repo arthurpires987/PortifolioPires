@@ -713,7 +713,7 @@ span {
         position: absolute;
         top: 100%;
         right: 0;
-        /* width: 50%; */
+        width: 50%;
         padding: 1rem 3%;
         background: rgba(0, 0, 0, 0.8);
         backdrop-filter: blur(20px);
@@ -739,6 +739,7 @@ span {
     }
 
     .home-content h3 {
+        margin: 15px 0 15px 0;
         font-size: 2.4rem;
     }
 
