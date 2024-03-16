@@ -646,7 +646,7 @@ span {
     font-size: 16px;
     color: white;
 }
-/* 
+ 
 @media(max-width:1285px) {
     html {
         font-size: 55%;
@@ -713,7 +713,7 @@ span {
         position: absolute;
         top: 100%;
         right: 0;
-        width: 50%;
+        /* width: 50%; */
         padding: 1rem 3%;
         background: rgba(0, 0, 0, 0.8);
         backdrop-filter: blur(20px);
@@ -763,4 +763,4 @@ span {
     .services-container {
         grid-template-columns: repeat(1,1fr);
     }
-} */
+} 
