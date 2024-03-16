@@ -704,6 +704,10 @@ span {
 }
 
 @media(max-width:895px) {
+    html {
+        width: 100%;
+    }
+
     #menu-icon {
         display: block;
     }
