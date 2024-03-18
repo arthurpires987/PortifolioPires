@@ -703,7 +703,7 @@ span {
     }
 }
 
-/* @media(max-width:895px) {
+@media(max-width:895px) {
     html {
         width: 100vw;
     }
@@ -768,4 +768,4 @@ span {
     .services-container {
         grid-template-columns: repeat(1,1fr);
     } 
-} */
+}
