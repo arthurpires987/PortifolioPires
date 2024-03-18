@@ -705,74 +705,6 @@ span {
 
 @media(max-width:895px) {
     html {
-        width: 100%; /* Certifique-se de que a largura da página se ajuste à largura do dispositivo */
-    }
-
-    #menu-icon {
-        display: block;
-    }
-
-    .navbar {
-        display: none;
-        position: absolute;
-        top: 100%;
-        right: 0;
-        width: 50%;
-        padding: 1rem 3%;
-        background: rgba(0, 0, 0, 0.8);
-        backdrop-filter: blur(20px);
-        border-bottom-left-radius: 2rem;
-        border-left: 2px solid var(--main-color);
-        border-bottom: 2px solid var(--main-color);
-    }
-
-    .navbar.active {
-        display: block;
-    }
-
-    .navbar a {
-        display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
-        color: white;
-    }
-
-    .home {
-        flex-direction: column-reverse;
-        margin: 5rem 4rem;
-    }
-
-    .home-content h3 {
-        margin: 15px 0 15px 0;
-        font-size: 2.2rem;
-    }
-
-    .home-content h1 {
-        font-size: 5rem;
-        margin-top: 3rem;
-    }
-
-    .home-content p {
-        max-width: 600px;
-        margin: 0 auto;
-    }
-
-    .home-img img {
-        width: 100%; /* Faça a imagem ocupar a largura total do contêiner pai */
-        max-width: 100%; /* Certifique-se de que a imagem não ultrapasse a largura do contêiner pai */
-    }
-
-    .services h2 {
-        margin-bottom: 3rem;
-    }
-
-    .services-container {
-        grid-template-columns: repeat(1,1fr);
-    } 
-}
-
-/*@media(max-width:895px) {
-    html {
         width: 100vw;
     }
 
@@ -836,4 +768,4 @@ span {
     .services-container {
         grid-template-columns: repeat(1,1fr);
     } 
-}*/
+}
