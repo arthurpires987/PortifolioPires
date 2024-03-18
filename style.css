@@ -708,6 +708,10 @@ span {
         width: 100vw;
     }
 
+    .header {
+        width: 60vw;
+    }
+
     #menu-icon {
         display: block;
     }
