@@ -661,10 +661,6 @@ span {
 }
 
 @media(max-width:991px) {
-    html {
-        overflow-x: hidden;
-    }
-
     header {
         padding: 2rem 3%;
     }
@@ -711,6 +707,7 @@ span {
 @media(max-width:769px) {
     html {
         width: 100vw;
+        overflow-x: hidden;
     }
 
     #menu-icon {
