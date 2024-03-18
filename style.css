@@ -662,11 +662,23 @@ span {
 
 @media(max-width:991px) {
     header {
-        padding: 2rem 3%;
+        padding: 2rem 0px;
+    }
+
+    .home-content {
+        width: 500px;
+    }
+
+    .home-content p {
+        width: 400px;
     }
 
     section {
-        padding: 10rem 3% 2rem;
+        padding: 15rem 3% 3rem;
+    }
+
+    h3 .text-animation {
+        font-size: small;
     }
 
     .timeline-items::before {
