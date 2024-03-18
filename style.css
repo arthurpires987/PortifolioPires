@@ -646,7 +646,8 @@ span {
     font-size: 16px;
     color: white;
 }
- 
+
+
 @media(max-width:1285px) {
     html {
         font-size: 55%;
@@ -703,7 +704,7 @@ span {
     }
 }
 
-@media(max-width:895px) {
+@media(max-width:769px) {
     html {
         width: 100vw;
     }
@@ -761,8 +762,13 @@ span {
         width: 56vw;
     }
 
+    .heading {
+        font-size: 7rem;
+    }
+
     .services h2 {
-        margin-bottom: 3rem;
+        font-size: 6rem;
+        margin-bottom: 5rem;
     }
 
     .services-container {
