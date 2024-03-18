@@ -32,7 +32,7 @@ body {
     display: flex;
 
     position: fixed;
-    width: 100vw;
+    width: 100%;
 
     justify-content: space-between;
     align-items: center;
@@ -724,6 +724,17 @@ span {
         border-bottom-left-radius: 2rem;
         border-left: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
+    }
+
+    .navbar.active {
+        display: block;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        color: white;
     }
 
     .home {
