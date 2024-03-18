@@ -718,7 +718,6 @@ span {
 
 @media(max-width:769px) {
     html {
-        width: 100vw;
         overflow-x: hidden;
     }
 
@@ -768,7 +767,7 @@ span {
 
     .home-content p {
         max-width: 600px;
-        margin: 0 auto;
+        /* margin: 0 auto; */
     }
 
     .home-img img {
