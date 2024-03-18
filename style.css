@@ -32,7 +32,7 @@ body {
     display: flex;
 
     position: fixed;
-    width: 100%;
+    width: 100vw;
 
     justify-content: space-between;
     align-items: center;
