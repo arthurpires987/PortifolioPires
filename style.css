@@ -717,6 +717,7 @@ span {
 }
 
 @media(max-width:769px) {
+    /* INCRIVEL! */
     body {
         overflow-x: hidden;
     }
@@ -779,9 +780,11 @@ span {
         width: 56vw;
     }
 
-    /* .heading {
-        font-size: 7rem;
-    } */
+    .heading-comp {
+        font-size: 8rem;
+        text-align: center;
+        margin: 1rem 0;
+    }
 
     .services h2 {
         font-size: 3rem;
