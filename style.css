@@ -717,9 +717,9 @@ span {
 }
 
 @media(max-width:769px) {
-    /* html {
+    body {
         overflow-x: hidden;
-    } */
+    }
 
     #menu-icon {
         display: block;
